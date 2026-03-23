@@ -2,122 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Hamilton Foot Care - Professional Podiatry Services</title>
-    <meta name="description" content="Expert podiatry services in Hamilton. Foot pain relief, diabetic foot care, custom orthotics. Book now!">
-    
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Roboto Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    
-    <!-- Android Style CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamilton Podiatry - Mobile Foot Care</title>
     {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-    <!-- Floating Action Buttons -->
-    <a href="tel:+16471234567" class="fab" title="Call Now">
+    <!-- FABs -->
+    <a href="tel:0224188248" class="fab fab-primary" title="Call Now">
         <span class="material-icons">phone</span>
     </a>
-    <a href="https://wa.me/16471234567?text=Hi%2C%20I%20need%20podiatry%20appointment" class="fab fab--whatsapp" title="WhatsApp" target="_blank">
+    <a href="https://wa.me/64224188248?text=Hello%2C%20I%27d%20like%20to%20book%20a%20podiatry%20appointment" class="fab fab-whatsapp" title="WhatsApp" target="_blank">
         <span class="material-icons">message</span>
     </a>
 
-    <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <h1>Expert Foot Care</h1>
-            <p class="hero-subtitle">Hamilton's trusted podiatry clinic for pain relief, orthotics, and diabetic foot care</p>
-            <a href="tel:+16471234567" class="md-button md-button--primary">
-                <span class="material-icons" style="margin-right: 8px; font-size: 1.2rem;">phone</span>
-                Call (647) 123-4567
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1>Hamilton Podiatry</h1>
+            <p class="hero-subtitle">Foot Care Made Easy – We Come to You</p>
+            <p class="hero-description">
+                Your feet play a big role in your everyday life. Whether you're staying active, working on your feet, or simply going about your day, foot pain or discomfort can slow you down. That's where we can help.<br><br>
+                At Hamilton Mobile Podiatry, we bring professional foot care straight to your home, making it simple and stress-free to look after your feet.
+            </p>
+            <a href="tel:0224188248" class="cta-button">
+                <span class="material-icons" style="margin-right: 12px;">phone</span>
+                Call 022 418 8248
             </a>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services">
-        <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🦶</div>
-                    <h3>Custom Orthotics</h3>
-                    <p>Personalized 3D-scanned orthotics for perfect foot alignment and pain relief</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">💉</div>
-                    <h3>Diabetic Care</h3>
-                    <p>Specialized treatment for neuropathy, ulcers, and circulation issues</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">⚡</div>
-                    <h3>Pain Relief</h3>
-                    <p>Heel pain, plantar fasciitis, bunions - fast, effective treatments</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🏃</div>
-                    <h3>Sports Podiatry</h3>
-                    <p>Injury prevention and performance enhancement for athletes</p>
-                </div>
+    <!-- After Hero - New Podiatrist Section -->
+<section class="about-podiatrist">
+    <div class="container">
+        <div class="podiatrist-card">
+            <div class="podiatrist-image"></div>
+            <div class="podiatrist-content">
+                <h2 class="podiatrist-title">About Your Podiatrist</h2>
+                <p class="podiatrist-text">
+                    Anna-Gloria Biladi is a qualified podiatrist who is passionate about helping people feel comfortable, mobile, and confident on their feet.<br><br>
+                    She works with patients of all ages — from those needing routine care to active individuals dealing with sports-related concerns. Anna-Gloria takes the time to understand your needs, providing care that is gentle, personalised, and focused on long-term results.
+                </p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- About Section -->
-    <section class="about">
-        <div class="container">
-            <div class="about-content">
-                <h2>15+ Years Serving Hamilton</h2>
-                <p>Our experienced podiatrists use cutting-edge technology to provide personalized foot care that gets results.</p>
-                <div class="location-info">
-                    <span>📍 123 Main St W, Hamilton, ON</span>
-                    <span>🕒 Mon-Sat 8AM-6PM</span>
-                    <span>⭐ 4.9/5 Google Rating</span>
+<!-- Accordion Section - After podiatrist -->
+<section class="accordion-section">
+    <div class="container">
+        <div class="accordion-container">
+            
+            <!-- 1️⃣ How We Can Help -->
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>🩺 How We Can Help</span>
+                    <span class="accordion-icon material-icons">expand_more</span>
+                </div>
+                <div class="accordion-content">
+                    <p class="accordion-text">
+                        We treat a wide range of foot and lower limb concerns, including:<br>
+                        - General foot care (nail trimming, corns and calluses)<br>
+                        - Ingrown toenails<br>
+                        - Foot pain and discomfort<br>
+                        - Diabetic foot care<br>
+                        - Fungal nail conditions<br>
+                        - Ongoing foot maintenance
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section class="contact">
-        <div class="container">
-            <h2 class="section-title">Ready to Get Started?</h2>
-            <p style="font-size: 1.25rem; margin-bottom: 40px; opacity: 0.95;">Book your consultation today</p>
-            
-            <div class="contact-info">
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <span class="material-icons">phone</span>
-                    </div>
-                    <span>(647) 123-4567</span>
+            <!-- 2️⃣ Sports & Activity Care -->
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>💪 Sports & Activity Care</span>
+                    <span class="accordion-icon material-icons">expand_more</span>
                 </div>
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <span class="material-icons">email</span>
-                    </div>
-                    <span>info@hamiltonfootcare.ca</span>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <span class="material-icons">location_on</span>
-                    </div>
-                    <span>123 Main St W<br>Hamilton, ON L8P 1A1</span>
+                <div class="accordion-content">
+                    <p class="accordion-text">
+                        If you're active or play sports, your feet go through a lot of stress. We provide care for common activity-related issues such as:<br><br>
+                        - Heel pain<br>
+                        - Arch pain<br>
+                        - Overuse injuries<br>
+                        - Running-related foot pain<br>
+                        - Gym and training-related discomfort<br><br>
+                        Our focus is not just on treatment, but also on prevention and performance, helping you recover properly and get back to doing what you enjoy with confidence.
+                    </p>
                 </div>
             </div>
-            
-            <a href="tel:+16471234567" class="md-button md-button--primary" style="margin-top: 32px; padding: 16px 40px; font-size: 1.125rem;">
-                Book Appointment Now
-            </a>
+
+            <!-- 3️⃣ Why Choose Mobile Podiatry -->
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>🚗 Why Choose Mobile Podiatry</span>
+                    <span class="accordion-icon material-icons">expand_more</span>
+                </div>
+                <div class="accordion-content">
+                    <p class="accordion-text">
+                        - No need to travel — we come to you<br>
+                        - Comfortable, familiar environment<br>
+                        - Ideal for those with limited mobility or busy schedules<br>
+                        - Professional equipment brought to every visit<br>
+                        - One-on-one, personalised care
+                    </p>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Hamilton Foot Care. Licensed Podiatrists | Serving Hamilton & GTA</p>
+            <p>&copy; 2024 Hamilton Podiatry. Mobile foot care service for Hamilton & surrounding areas. | 022 418 8248</p>
         </div>
     </footer>
+    <script>
+
+/* Accordion functionality */
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('.accordion-header');
+    
+    headers.forEach(header => {
+        header.addEventListener('click', function() {
+            const item = this.parentElement;
+            const isActive = item.classList.contains('active');
+            
+            // Close all items
+            document.querySelectorAll('.accordion-item').forEach(i => {
+                i.classList.remove('active');
+            });
+            
+            // Open clicked if not already active
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        });
+    });
+});
+</script>
 </body>
 </html>
